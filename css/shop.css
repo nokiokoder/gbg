@@ -1,0 +1,281 @@
+/*WEBSITE FONTS AND FONT SIZES*/
+
+.AcuminProCondensedExtraLightItalic {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.AcuminProExtraCondensedLight {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.AcuminProExtraCondensedSemibold {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.AcuminProExtraCondensedBlack {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.AcuminProBlack {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.AcuminProCondensedMedium {
+    font-family: acumin-pro-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.AcuminProCondensedBlack {
+    font-family: acumin-pro-condensed, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.AcuminProExtraCondensedMedium {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.AcuminProExtraCondensedSemiboldItalic {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.AcuminProExtraCondensedBold {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*font and letter spaces*/
+.letterSpace {
+    letter-spacing: 1.5px;
+}
+.letterSpaceOne {
+    letter-spacing: 1.15px;
+}
+
+
+
+.twentypts{
+    font-size: 18pt;
+}
+.sixteenpt {
+    font-size: 16pt;
+}
+.eighteenpt {
+    font-size: 18pt;
+}
+.twentypt {
+    font-size: 20pt;
+}
+.thirtypt {
+    font-size: 30pt;
+}
+.thirtyfivept {
+    font-size: 35pt;
+}
+.fortypt {
+    font-size: 40pt;
+}
+.fiftyseven {
+    font-size: 57pt;
+}
+.sixty {
+    font-size: 60pt;
+}
+.sixtyfive {
+    font-size: 65pt;
+}
+.fortyeight {
+    font-size: 48pt;
+}
+.fourteenpt{
+    font-size: 14pt;
+}
+.twelvept {
+    font-size: 12pt;
+}
+
+/*COLORS*/
+
+.fontGrey {
+    color: #353535;
+}
+
+.fontwhite {
+    color: #ffffff;
+}
+
+.fontGreyBold {
+    color: #353535;
+}
+
+.yellow {
+    color: #fdbf0b;
+    transition: 0.3s;
+}
+.yellow:hover {
+    color: #ffa800;
+}
+
+
+/*NAV STUFF*/
+.nav-link {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0px;
+    margin: 0px 1px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+}
+.nav-link:hover {
+    opacity: 1;
+}
+.nav-link::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #353535;
+}
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+}
+.nav-link-ltr:hover::before {
+    width: 100%;
+}
+.nav-item {
+    min-width: 60px !important;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16pt;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: white;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /*font-size: 21px;*/
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+
+
+.navbar-light .navbar-brand:hover {
+    color: rgb(247 247 247 / 90%);
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+
+
+
+/*SOCIAL ICONS*/
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.social-icons li {
+    display: inline-block;
+    /*margin-bottom:4px*/
+}
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px;
+}
+.social-icons a {
+    /*background-color:#eceeef;*/
+    /*color:#818a91;*/
+    font-size: 16px;
+    display: inline-block;
+    /*line-height:44px;*/
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+}
+
+/*BUTTONS*/
+.btn-getstartednow {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #fdbf0a;
+    border-color: #fdbf0a;
+    transition: 0.3s;
+}
+
+.btn-getstartednow:hover {
+    color: #fff;
+    background-color: #ffa800;
+    border-color: #ffa800;
+}
+
+.shopInfoBox {
+    background-color: black;
+    opacity: 0.6;
+    min-width: 100%;
+    min-height: 200px;
+}
+
+.footergrey {
+    color: #c5c5c5;
+}
+#faq:hover,
+#privacy:hover,
+#contact:hover {
+    color: #a2a2a2;
+    text-decoration: none;
+}
+#contact,
+#policy,
+#faq {
+    transition: 0.3s;
+}
+
+.shopBG{
+    background-image: url('http://gbghoops.com/assetts/Home/BG/Shop-BG-v4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*.fontNavBrand {*/
+/*    font-size: 16pt;*/
+/*    letter-spacing: 2px;*/
+/*}*/

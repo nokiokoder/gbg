@@ -1,0 +1,1216 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query since this is the default in Bootstrap*/
+
+.hidediscrip {
+    display: none;
+}
+
+/*WEBSITE FONTS AND FONT SIZES*/
+
+.AcuminProCondensedExtraLightItalic {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.AcuminProExtraCondensedLight {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.AcuminProExtraCondensedSemibold {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.AcuminProExtraCondensedBlack {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.AcuminProBlack {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.AcuminProCondensedMedium {
+    font-family: acumin-pro-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.AcuminProCondensedBlack {
+    font-family: acumin-pro-condensed, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.AcuminProExtraCondensedMedium {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.AcuminProExtraCondensedSemiboldItalic {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.AcuminProExtraCondensedBold {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/*font and letter spaces*/
+.letterSpace {
+    letter-spacing: 1.5px;
+}
+.letterSpaceOne {
+    letter-spacing: 1.15px;
+}
+
+.sixtyeightpt{
+    font-size:68pt
+}
+
+.twentypts{
+    font-size: 18pt;
+}
+.sixteenpt {
+    font-size: 16pt;
+}
+.eighteenpt {
+    font-size: 18pt;
+}
+.twentypt {
+    font-size: 20pt;
+}
+.thirtypt {
+    font-size: 30pt;
+}
+.thirtyfivept {
+    font-size: 35pt;
+}
+.fortypt {
+    font-size: 40pt;
+}
+.fiftyseven {
+    font-size: 57pt;
+}
+.sixty {
+    font-size: 60pt;
+}
+.sixtyfive {
+    font-size: 65pt;
+}
+.fortyeight {
+    font-size: 48pt;
+}
+.fourteenpt{
+    font-size: 14pt;
+}
+.twelvept {
+    font-size: 12pt;
+}
+
+/*line heights*/
+.bioHeader {
+    line-height: 1.1;
+    /*this is the recommended line height*/
+}
+.gbglineheight {
+    line-height: 1.1;
+}
+.pointSixLineHeight {
+    line-height: 0.6;
+}
+/*END OF FONTS*/
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/*COLORS*/
+
+.fontGrey {
+    color: #353535;
+}
+
+.fontwhite {
+    color: #ffffff;
+}
+
+.fontGreyBold {
+    color: #353535;
+}
+
+.yellow {
+    color: #fdbf0b;
+    transition: 0.3s;
+}
+.yellow:hover {
+    color: #ffa800;
+}
+
+/*END OF COLORS*/
+
+footer {
+    padding-left: 1rem;
+}
+
+.hiddenPowers {
+    visibility: hidden;
+}
+
+@media (max-width: 600px) {
+    .fontNavBrand {
+        font-size: 8pt;
+        letter-spacing: 2px;
+    }
+    .navbar-dark {
+        background-color: transparent !important;
+    }
+    header {
+        position: relative;
+        background-color: black;
+        height: 75vh;
+        min-height: 25rem;
+        width: 100%;
+        overflow: hidden;
+        margin-top: -116px;
+    }
+    /*.navbar-brand {*/
+    /*    display: inline-block;*/
+    /*    padding-top: 0.3125rem;*/
+    /*    padding-left: 0px;*/
+    /*    padding-bottom: 0.3125rem;*/
+    /*    margin-right: 1rem;*/
+    /*    font-size: 1.25rem;*/
+    /*    line-height: inherit;*/
+    /*    white-space: nowrap;*/
+    /*    color: white;*/
+    /*    font-family: acumin-pro-extra-condensed, sans-serif;*/
+    /*    font-weight: 600;*/
+    /*    font-style: normal;*/
+    /*    !*font-size: 21px;*!*/
+    /*}*/
+    /*.navbar-collapse {*/
+    /*    border-top: 0 solid transparent;*/
+    /*    box-shadow: 0 1px 0 rgb(255 255 255 / 0%) inset;*/
+    /*    overflow-x: visible;*/
+    /*    padding-left: 15px;*/
+    /*    padding-right: 15px;*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    width: 100%;*/
+    /*}*/
+}
+
+.logo {
+    width: 44px;
+    height: 50px;
+    background-image: url("http://gbghoops.com/assetts/Home/Nav/Nav-GBGHoopsLogo.png");
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    /*.navbar-expand-lg{*/
+    /*    background-color: transparent;*/
+    /*}*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600;
+    }
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        background: #0848a9 none repeat scroll 0 0;
+        border-color: transparent;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    header .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 105%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.7;
+        z-index: 1;
+    }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
+.video-background-holder {
+    position: relative;
+    background-color: black;
+    height: calc(100vh - 72px);
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-background-holder video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+    position: relative;
+    z-index: 2;
+}
+
+.video-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 105%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+code {
+    padding: 0 0.15rem;
+    background: #f5f5f5;
+    border-radius: 0.2rem;
+}
+.nav-link {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /*text-transform: uppercase;*/
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 0px;
+    margin: 0px 1px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+}
+.nav-link:hover {
+    opacity: 1;
+}
+.nav-link::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #fff;
+}
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: 10px;
+}
+.nav-link-ltr:hover::before {
+    width: 100%;
+}
+.nav-item {
+    min-width: 60px !important;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16pt;
+}
+
+.imgOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #fdbf0b;
+}
+
+/*.carousel-item:hover::after {*/
+/*    content: "Program Name"*/
+/*}*/
+
+.tooltip:hover:before {
+    display: block;
+}
+
+.tooltipbox {
+    background-color: #fff2ce;
+    border: dashed 3px #fdbf0b;
+    padding: 10px;
+    min-height: 150px;
+    /*display: none;*/
+}
+.tooltipcontainer {
+    width: 100%;
+    height: 250px;
+}
+
+.POMButtonImage {
+    background-image: url("http://gbghoops.com/assetts/Home/WhatIsGBG/WhatIsGBG-Btn-ProgramOfTheMonth-State1.png");
+    background-size: cover;
+    transition: 0.3s;
+    width: 250px;
+    height: 39px;
+    padding: 0px 1px;
+}
+
+.POMButtonImage:hover {
+    background-image: url("http://gbghoops.com/assetts/Home/WhatIsGBG/WhatIsGBG-Btn-ProgramOfTheMonth-State2.png");
+}
+
+.buyNowMonthly {
+    background-image: url("http://gbghoops.com/assetts/Home/BuyNow/BuyNow-Btn-Monthly-State1");
+    background-size: cover;
+    transition: 0.3s;
+    width: 41%;
+    height: auto;
+    padding: 0px 1px;
+    float: left;
+}
+.buyNowMonthly:hover {
+    background-image: url("http://gbghoops.com/assetts/Home/BuyNow/BuyNow-Btn-Monthly-State2");
+}
+.buyNowYearly {
+    background-image: url("http://gbghoops.com/assetts/Home/BuyNow/BuyNow-Btn-Yearly-State1");
+    background-size: cover;
+    transition: 0.3s;
+    width: 41%;
+    height: auto;
+    padding: 0px 1px;
+    float: right;
+}
+.buyNowYearly:hover {
+    background-image: url("http://gbghoops.com/assetts/Home/BuyNow/BuyNow-Btn-Yearly-State2");
+}
+
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+.social-icons li {
+    display: inline-block;
+    /*margin-bottom:4px*/
+}
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px;
+}
+.social-icons a {
+    /*background-color:#eceeef;*/
+    /*color:#818a91;*/
+    font-size: 16px;
+    display: inline-block;
+    /*line-height:44px;*/
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+}
+.programOfTheMonth {
+    background-image: url("http://gbghoops.com/assetts/Home/WhatIsGBG/WhatIsGBG-Btn-ProgramOfTheMonth-State1.png");
+    margin-top: 104px;
+    width: 250px;
+    z-index: 1;
+    position: relative;
+}
+.yellow-dashed-box {
+    border-top: dashed 3px #fdbf0b;
+    border-left: dashed 3px #fdbf0b;
+    border-right: dashed 3px #fdbf0b;
+    width: 100%;
+    z-index: 3;
+    /*margin-top: -21%;*/
+}
+
+/*end tt*/
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+    background: #707070;
+}
+
+/*end of tooltip*/
+.nvfont {
+    font-size: 18pt;
+}
+
+.buyNowSizzle {
+    background-image: url("http://gbghoops.com/assetts/Home/Sizzle/Sizzle-Btn-GetStarted-State1.png");
+    z-index: 4;
+    transition: 0.3s;
+    background-size: 112px 204px;
+    width: 112px;
+    height: 204px;
+    z-index: 4;
+    margin-right: 4%;
+}
+.buyNowSizzle:hover {
+    background-image: url("http://gbghoops.com/assetts/Home/Sizzle/Sizzle-Btn-GetStarted-State2.png");
+}
+.white {
+    color: #ffffff !important;
+}
+/*.navbar-light .navbar-brand {*/
+/*    color: rgb(247 247 247 / 90%);*/
+/*}*/
+/*.navbar-brand {*/
+/*    display: inline-block;*/
+/*    padding-top: 0.3125rem;*/
+/*    !*padding-left: 0.5 vw;*!*/
+/*    padding-left: 1rem;*/
+/*    padding-bottom: 0.3125rem;*/
+/*    margin-right: 1rem;*/
+/*    font-size: 1.25rem;*/
+/*    line-height: inherit;*/
+/*    white-space: nowrap;*/
+/*    color: white;*/
+/*    font-family: acumin-pro-extra-condensed, sans-serif;*/
+/*    font-weight: 600;*/
+/*    font-style: normal;*/
+/*    !*font-size: 21px;*!*/
+/*}*/
+
+/*.navbar-brand:hover {*/
+/*    color: white;*/
+/*}*/
+
+/*body > nav > a > img {*/
+/*    margin-right: 4%;*/
+/*}*/
+
+/*.navbar-light .navbar-brand:hover {*/
+/*    color: rgb(247 247 247 / 90%);*/
+/*}*/
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: black;
+    padding: 2px 16px;
+    color: white;
+}
+
+.hover-shadow {
+    transition: 0.3s;
+    /*background-color: #fdbf0b;*/
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*background-color: #fdbf0b;*/
+}
+
+.lead {
+    color: #ffffff;
+}
+
+/*font styles for website*/
+.spacing {
+    letter-spacing: 2px;
+    line-height: 1;
+}
+.whatIs {
+    text-transform: uppercase;
+    font-size: 42.43pt;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #353535;
+}
+.gbghoops {
+    text-transform: uppercase;
+    font-size: 80pt;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #353535;
+}
+.ulListTypeSquare {
+    list-style-type: square;
+}
+.liWhatIsGBG {
+    font-size: 20pt;
+    color: #353535;
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/*FONTS*/
+
+.fontNavBrand {
+    font-size: 16pt;
+    letter-spacing: 2px;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: acumin-pro;
+    font-style: normal;
+}
+
+.footergrey {
+    color: #c5c5c5;
+}
+#faq:hover,
+#privacy:hover,
+#contact:hover {
+    color: #a2a2a2;
+    text-decoration: none;
+}
+#contact,
+#policy,
+#faq {
+    transition: 0.3s;
+}
+
+body
+> footer
+> div
+> div
+> div.col-sm-8.d-flex.justify-content-md-start.justify-content-sm-start.py-2
+> p
+> a:nth-child(1)
+.bioHeader {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+}
+
+.bioBody {
+    font-family: acumin-pro-extra-condensed, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#gStart {
+    width: 256px;
+    height: 100%;
+}
+
+.programName {
+    font-size: 20px;
+    color: #353535;
+}
+
+.programDescription {
+    font-size: 20px;
+    color: #fdbf0b;
+}
+.coach {
+    background-image: url(http://gbghoops.com/assetts/Home/Bio/Bio-BG-V3.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+
+
+.subscribe {
+    background-image: url(http://gbghoops.com/assetts/Home/Subscribe/Subscribe-BG.jpg);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+
+.buyNow {
+    background: url(http://gbghoops.com/assetts/Home/BuyNow/BuyNow-BG.jpg) center center / cover no-repeat;
+    background-image: url(http://gbghoops.com/assetts/Home/BuyNow/BuyNow-BG.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    visibility: visible;
+    animation-name: fadeIn;
+    height: 400px;
+}
+
+.getStarted {
+    background-image: url(http://gbghoops.com/assetts/Home/GetStarted/GetStarted-GBGHoopsLogo.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+    height: 600px;
+}
+
+body > section.py-5 > div.container-fluid.py-5 > div > div.col-lg-7.pl-5 > ul > li:nth-child(4) > a:hover {
+    color: #fdbf0b;
+    text-decoration: none;
+}
+
+a:link a:hover {
+    color: #fdbf0b;
+}
+
+.yellow-dashed {
+    border-bottom: dashed 3px #fdbf0b;
+}
+
+.shopInfoBox {
+    background-color: black;
+    opacity: 0.6;
+    min-width: 100%;
+    min-height: 300px;
+}
+/*BUTTONS FOR SITE*/
+.btn-gbgshop {
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #fdbf0a;
+    border-color: #fdbf0a;
+    transition: 0.3s;
+}
+.btn-gbgshop:hover {
+    background-color: #ffa800;
+    border-color: #ffa800;
+}
+.btn-gbghoops {
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #fdbf0a;
+    border-color: #fdbf0a;
+    transition: 0.3s;
+}
+
+.btn-gbghoops:hover {
+    background-color: #ffa800;
+    border-color: #ffa800;
+}
+
+.btn-getstartednow {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #fdbf0a;
+    border-color: #fdbf0a;
+    transition: 0.3s;
+}
+
+.btn-getstartednow:hover {
+    color: #fff;
+    background-color: #ffa800;
+    border-color: #ffa800;
+}
+
+/*Mouse Animation Start*/
+
+.mouse-icon {
+    border: 2px solid #fff;
+    border-radius: 16px;
+    bottom: 20px;
+    display: block;
+    height: 40px;
+    left: 0;
+    margin: 60px auto 0;
+    position: absolute;
+    right: 0;
+    width: 24px;
+    z-index: 10;
+    animation-name: scrolling;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transform-origin: bottom;
+}
+
+.mouse-icon .scroll {
+    position: relative;
+    border-radius: 10px;
+    background: #fff;
+    width: 4px;
+    height: 10px;
+    top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*.mouse-icon .scroll {*/
+/* */
+
+/*}*/
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/*Mouse Animation End*/
+
+.classImg {
+    min-width: 320px;
+    height: 180px;
+    /* max-width: 75%; */
+    /* max-height: 75%; */
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.gbgLogo {
+    width: 184px;
+    height: 273px;
+}
+
+.btn-yellow {
+    background-color: #fdbf0b;
+    border-color: #ffcc00;
+    color: #ffffff;
+    transition: 0.3s;
+}
+.btn-yellow:hover {
+    background-color: #ffa800;
+    border-color: #ffa800;
+}
+
+header {
+    /*position: relative;*/
+    background-color: white;
+    height: 90vh;
+    height: calc(var(--vh, 1vh) * 90);
+    width: 100vw;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    /*margin-top: -93px;*/
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 105%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+nav {
+    z-index: 3;
+}
+
+header .container-fluid {
+    position: relative;
+    z-index: 2;
+}
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 106%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+    header {
+        background: url("https://source.unsplash.com/XT5OInaElMw/1600x900") black no-repeat center center scroll;
+    }
+    header video {
+        display: none;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*
+ * STYLES MOVED FROM INDEX.HTML
+ */
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {...} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {...} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {...} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {...} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* WebAmin */
+
+/* @media only screen and (min-width: 1200px) {
+    #programsPrev {
+        width: 20% !important;
+        z-index: 9999;
+    }
+    #programsNext {
+        width: 20% !important;
+        z-index: 9999;
+    }
+} */
+/* WebAmin End */
+
+header {
+    position: relative;
+    background-color: black;
+    height: calc(var(--vh, 1vh) * 90);
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    top: -88px;
+}
+
+header video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+    position: relative;
+    z-index: 2;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+/*test*/
+.slider .carousel-item.active {
+    display: inline-block;
+    margin-left: 0.8%;
+    margin-right: 0.8%;
+}
+
+.dropdown {
+    list-style: none;
+    background: green;
+    padding: 10px;
+    display: inline-block;
+}
+.dropdown .nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+.dropdown .dropdown-menu a {
+    color: #000;
+    text-decoration: none;
+}
+.dropdown .btn {
+    background: green;
+    color: #fff;
+}
+.dropdown .btn:hover {
+    background: cyan;
+    color: #000;
+}
+.dropdown .btn:active {
+    background: cyan;
+    color: #000;
+}
+.dropdown .btn:focus {
+    background: cyan;
+    color: #000;
+}
+.dropdown-menu .dropdown-item {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 5px;
+}
+
+.container .dropdown .dropdown-menu a:hover {
+    color: #fff;
+    background-color: #b91773;
+    border-color: #fff;
+}
+
+/*#testimonialsPrev{*/
+/*    width: 25% !important;*/
+/*    z-index: 9999;*/
+/*}*/
+/*#testimonialsNext{*/
+/*    width: 30% !important;*/
+/*    z-index: 9999;*/
+/*}*/
+/*#programsPrev{*/
+/*    width: 15% !important;*/
+/*    z-index: 9999;*/
+/*}*/
+/*#programsNext{*/
+/*    width: 15% !important;*/
+/*    z-index: 9999;*/
+/*}*/
+
+/**************************/
+/* Added by WebAmin
+/**************************/
+.program-image {
+    width: 234px;
+    height: 234px;
+    max-width: none;
+}
+
+.hover-overlay {
+    position: relative;
+}
+
+.hover-overlay::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    background: rgba(252, 191, 11, 0.3);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.hover-overlay:hover::after {
+    opacity: 1;
+}
+
+.slider:not(.hovered) .hover-overlay.focused::after {
+    opacity: 1;
+}
+
+#test-slider1 .carousel-item {
+    height: 180px;
+    margin-bottom: 90px;
+}
+
+#test-slider1 .hover-overlay::after {
+    width: 320px;
+    height: 180px;
+}
+
+#test-slider2 .hover-overlay::after {
+    width: 234px;
+    height: 234px;
+}
+
+.slider .carousel-indicators {
+    bottom: 0;
+}
+
+.slider .carousel-indicators li {
+    background-color: rgba(255, 193, 7, 0.5);
+}
+
+.slider .carousel-indicators li.active {
+    background-color: #ffc107 !important;
+}
+
+#programsPrev,
+#programsNext,
+#testimonialsPrev,
+#testimonialsNext {
+    top: 0;
+}
+
+#programsPrev {
+    height: 234px;
+    left: 55%;
+}
+
+#programsNext {
+    height: 234px;
+    right: 55%;
+}
+
+#testimonialsPrev {
+    height: 180px;
+    left: 55%;
+}
+
+#testimonialsNext {
+    height: 180px;
+    right: 55%;
+}
